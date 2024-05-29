@@ -35,10 +35,11 @@ The `rain` function calculates the water retained by following these steps:
    - Update the `left_max` or `right_max` based on the current height.
    - Calculate water retained at each position based on the minimum of `left_max` and `right_max`.
    - Move the pointer (`left` or `right`) towards the center based on the heights to ensure all positions are processed.
+   This method ensures efficient calculation with a time complexity of O(n), where n is the length of the list.
+
   
   ## Author
   Yvette Kwizera
 
   
 
-This method ensures efficient calculation with a time complexity of O(n), where n is the length of the list.
